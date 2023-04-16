@@ -9,7 +9,7 @@ básicas.
 
 Utilice el archivo `data.csv` para resolver las preguntas....
 """
-data=open('D:/Users/lacevedog/OneDrive - Linea Directa S.A.S/Escritorio/data.csv','r')
+data=open('data.csv','r')
 data=[z.replace("\n", "") for z in data]
 data=[z.split("\t") for z in data]
 
